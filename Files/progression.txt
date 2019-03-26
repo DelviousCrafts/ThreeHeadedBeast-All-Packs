@@ -2,8 +2,6 @@ TECH
 	Tier 1
 		Actually Additions 
 		Immersive engineering
-		integrated dynamics
-		Draconic evolution
 		Tinkers construct smeltry
 
 	Tier 2

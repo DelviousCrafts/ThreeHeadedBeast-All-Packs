@@ -11,14 +11,14 @@ beginning (mods/blocks to introduce/do)
 
 Hunter
     kill passive
-    kill agressive
+    kill hostile
     kill nether creatures (linked to go to nether)
     kill individual ice and fire
     kill dragon
     kill wither
     kill ender dragon
     kill chaos guardian
-    dark utilities (seperate, linked to kill active)
+    dark utilities (seperate, linked to kill hostile)
 	
 	
 Storage (all seperate strings)
