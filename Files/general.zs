@@ -291,7 +291,7 @@ Grinder.addRecipe(<appliedenergistics2:material:5>, <minecraft:sand>, 6);
 Grinder.addRecipe(<minecraft:blaze_powder> * 4, <minecraft:blaze_rod>, 4, <thermalfoundation:material:771>, 0.5);
 Grinder.addRecipe(<minecraft:dye:11> * 3, <minecraft:yellow_flower>, 4, <minecraft:dye:11>, 0.86, <enderio:item_material:46>, 0.33);
 Grinder.addRecipe(<minecraft:dye:1> * 3, <minecraft:red_flower>,4, <minecraft:dye:1>, 0.86, <enderio:item_material:46>, 0.33);
-Grinder.addRecipe(<minecraft:sugar> * 3, 4, <minecraft:reeds>, <	minecraft:sugar>, 0.77, <enderio:item_material:46>, 0.30);
+Grinder.addRecipe(<minecraft:sugar> * 3, <minecraft:reeds>, 4, <minecraft:sugar>, 0.77, <enderio:item_material:46>, 0.30);
 
 /* Makes Actually Additions Crystal Clusters Craftable cuz they're pretty */
 Altar.addDiscoveryAltarRecipe("THBNewage:shaped/internal/altar/crystalCluster", <actuallyadditions:block_crystal_cluster_redstone>, 100, 80, [

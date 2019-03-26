@@ -2,7 +2,7 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.item.IIngredient;
 
-/* Declare as Variable - Makes referencing for tooltips easier. */
+/* Declare values and variables to make my life easier */
 var stoneFacade = <appliedenergistics2:facade>.withTag({damage: 0, item: "minecraft:stone"});
 var bcFacade = <buildcraftsilicon:plug_facade>.withTag({facade: {isHollow: 0 as byte, states: [{state: {Name: "minecraft:cobblestone"}}]}}) as IItemStack;
 
