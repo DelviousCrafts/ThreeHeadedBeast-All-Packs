@@ -1,17 +1,27 @@
 beginning (mods/blocks to introduce/do)
-	cyclic
+	Rudimentary ore processing
+	akashic tome (seperate)
+	Dimensional doors (seperate)
+	basic exploring tools
 	go to nether
-	go to end
 	deep dark
 	aroma dimension	
+	go to end
 
 
 Hunter
-    Kill all things
-	dark utilities
+    kill passive
+    kill agressive
+    kill nether creatures (linked to go to nether)
+    kill individual ice and fire
+    kill dragon
+    kill wither
+    kill ender dragon
+    kill chaos guardian
+    dark utilities (seperate, linked to kill active)
 	
 	
-Storage 
+Storage (all seperate strings)
 	storage drawers
 	refined storage
 	ae2
@@ -45,3 +55,4 @@ Draconic Evolution
 	
 Take to the sky
 	Galacticraft and planets
+	get stargate for each planet (endgame)
