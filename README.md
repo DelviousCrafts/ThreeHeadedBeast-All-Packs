@@ -7,6 +7,8 @@ What's Expected (tell me what you expected or suggest):
   
 
 Optifine installed Y/N:
+
+  IF yes, Version:
   
 Latest Log (pastebin link or uploaded file. DO NOT copy and paste here):
 
