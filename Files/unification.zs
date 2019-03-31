@@ -213,6 +213,11 @@ for item in HArray{
 <ore:stone>.addAll(<ore:stoneAndesite>);
 <ore:stone>.addAll(<ore:stoneDiorite>);
 <ore:stone>.addAll(<ore:stoneGranite>);
+	/* Seed Fix */
+<ore:listAllseed>.add(<minecraft:wheat_seeds>);
+<ore:listAllseed>.add(<immersiveengineering:seed>);
+<ore:listAllseed>.add(<actuallyadditions:item_rice_seed>);
+<ore:listAllseed>.add(<actuallyadditions:item_coffee_seed>);
 
 /* Force new ore Dictionaries to be used in all recipes */
 recipes.replaceAllOccurences(<minecraft:wool:0>, <ore:blockWoolWhite>);
@@ -244,8 +249,8 @@ recipes.replaceAllOccurences(<extraplanets:tier5_items:6>, <ore:plateNickel>);
 recipes.replaceAllOccurences(<galacticraftcore:oxygen_tank_light_full>, <ore:lOxyTank>);
 recipes.replaceAllOccurences(<galacticraftcore:oxygen_tank_med_full>, <ore:mOxyTank>);
 recipes.replaceAllOccurences(<galacticraftcore:oxygen_tank_heavy_full>, <ore:hOxyTank>);
-
-/* Fix some quarts recipes after quartz unification */
+recipes.replaceAllOccurences(<minecraft:wheat_seeds>, <ore:listAllseed>);
+/* Fix some recipes after unification */
 var TArray = [
 	<appliedenergistics2:nether_quartz_axe>,
 	<appliedenergistics2:nether_quartz_hoe>,
@@ -256,7 +261,8 @@ var TArray = [
 	<appliedenergistics2:nether_quartz_cutting_knife>,
 	<appliedenergistics2:material:44>,
 	<mysticalagriculture:nether_quartz_seeds>,
-	<actuallyadditions:item_mining_lens>
+	<actuallyadditions:item_mining_lens>,
+	<natura:seed_bags>
 ]as IItemStack[];
 for item in TArray{
 	recipes.remove(item);
@@ -309,6 +315,11 @@ recipes.addShaped(<actuallyadditions:item_mining_lens>, [
 	[<minecraft:coal>, <actuallyadditions:item_misc:18>, <actuallyadditions:item_misc:5>], 
 	[<minecraft:quartz>, <minecraft:dye:4>, <minecraft:emerald>]
 ]);
+recipes.addShapeless(<natura:seed_bags>, 
+	[<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, 
+	<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, 
+	<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>]
+);
 
 /* Remove UniDict's Plate and Gear Unification to prevent inteference */
 mods.unidict.removalByKind.get("Crafting").remove("plate");
@@ -860,3 +871,7 @@ recipes.addShaped(<galacticraftcore:panel_lighting>, [
 	[<ore:paneGlass>, <galacticraftcore:glowstone_torch>, <ore:paneGlass>], 
 	[<ore:paneGlass>, <ore:plateSteel>, <ore:paneGlass>]
 ]);
+
+/* Rice dough makes bread instead */
+furnace.remove(<actuallyadditions:item_food:17>);
+furnace.addRecipe(<minecraft:bread>, <actuallyadditions:item_misc:9>, 15);

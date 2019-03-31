@@ -325,7 +325,7 @@ Altar.addDiscoveryAltarRecipe("THBNewage:shaped/internal/altar/crystalCluster", 
 	null, <actuallyadditions:item_crystal_shard:5>, null]
 );
 
-/* Fix Snad Recipe to make it not so simple to obtain */
+/* Change Snad Recipe to make it not so simple to obtain */
 recipes.remove(<snad:snad:*>);
 recipes.addShaped(<snad:snad>, [
 	[<minecraft:dye:15>, <minecraft:sand>, <minecraft:dye:15>], 
@@ -346,20 +346,3 @@ recipes.addShaped(<iceandfire:lectern>, [[<ore:stickWood>], [<ore:plankWood>], [
 recipes.addShapeless(<minecraft:name_tag>, 
 	[<minecraft:name_tag:*>]
 );
-
-/* Allowing more seeds to be used in wheat seed recipes */
-<ore:listAllseed>.add(<minecraft:wheat_seeds>);
-<ore:listAllseed>.add(<immersiveengineering:seed>);
-<ore:listAllseed>.add(<actuallyadditions:item_rice_seed>);
-<ore:listAllseed>.add(<actuallyadditions:item_coffee_seed>);
-recipes.replaceAllOccurences(<minecraft:wheat_seeds>, <ore:listAllseed>);
-recipes.remove(<natura:seed_bags>);
-recipes.addShapeless(<natura:seed_bags>, 
-	[<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, 
-	<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, 
-	<minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>]
-);
-
-/* Rice dough makes bread instead */
-furnace.remove(<actuallyadditions:item_food:17>);
-furnace.addRecipe(<minecraft:bread>, <actuallyadditions:item_misc:9>, 15);

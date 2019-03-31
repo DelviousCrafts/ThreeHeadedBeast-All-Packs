@@ -1,14 +1,19 @@
-Pressing b creates a new waypoint where you're standing.
-Give dragons a wide berth.
-Click and drag items to seperate them evenly between slots.
-Right click and drag items to place one per slot.
-Holding shift while pressing the plus in JEI will craft all you can.
-Pressing the plus while in JEI will move the ingredients to the crafting grid.
-Clicking an item in JEI will show you it's recipe.
-Right Clicking an item in JEI will show you how it can be used. 
-Claiming chunks will protect them from creeper explosions.
-The arrows at the top of JEI recipes shows different ways to craft.
-Clicking on an ingot in JEI will show you it's stats for Tinkers Tools.
-Golden Lasso's allow you to move passive mobs.
-There's no shame in running away from a monster.
-You should have at least some armor on before exploring the ruins.
+Please feel free to add to this list of tips for new or returning players.
+	
+	Pressing b creates a new waypoint where you're standing.
+	Give dragons a wide berth. No wider than that even.
+	Click and drag items to seperate them evenly between slots.
+	Right click and drag items to place one per slot.
+	Holding shift while pressing the plus in JEI will craft as many of that recipe as you have ingredients for.
+	Pressing the plus while in JEI will move the ingredients to the crafting grid.
+	Clicking an item in JEI will show you it's recipe.
+	Right Clicking an item in JEI will show you how it can be used. 
+	Claiming chunks will protect them from creeper explosions.
+	The arrows at the top of JEI recipes shows different ways to craft.
+	Clicking on an ingot in JEI will show you it's stats for Tinkers Tools.
+	Golden Lasso's allow you to move passive mobs.
+	Cursed Lasso's allow you to move injured agressive mobs.
+	There's no shame in running away from a monster.
+	You should have at least some armor on before exploring the ruins.
+	All power transfer options are interchangeable except IndustrialCraft and BuildCraft.
+	
