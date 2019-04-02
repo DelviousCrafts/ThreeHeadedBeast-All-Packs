@@ -3,11 +3,12 @@ Please feel free to add to this list of tips for new or returning players.
 	Pressing b creates a new waypoint where you're standing.
 	Give dragons a wide berth. No wider than that even.
 	Click and drag items to seperate them evenly between slots.
-	Right click and drag items to place one per slot.
+	Right click and drag items in any grid to place one per slot.
 	Holding shift while pressing the plus in JEI will craft as many of that recipe as you have ingredients for.
 	Pressing the plus while in JEI will move the ingredients to the crafting grid.
 	Clicking an item in JEI will show you it's recipe.
-	Right Clicking an item in JEI will show you how it can be used. 
+	Right Clicking an item in JEI will show you how it can be used.
+	Click the map icon on the left while in your inventory to claim chunks.
 	Claiming chunks will protect them from creeper explosions.
 	The arrows at the top of JEI recipes shows different ways to craft.
 	Clicking on an ingot in JEI will show you it's stats for Tinkers Tools.
@@ -16,4 +17,7 @@ Please feel free to add to this list of tips for new or returning players.
 	There's no shame in running away from a monster.
 	You should have at least some armor on before exploring the ruins.
 	All power transfer options are interchangeable except IndustrialCraft and BuildCraft.
-	
+	Placing cooked meat on a drying rack makes leather.
+	Using a glass cutter to break glass and panes will return the block instead of breaking it.
+	Click the book icon on the top left while in your inventory to open the quest pages.
+	Entering /back will take you to your latest death.

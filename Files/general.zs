@@ -293,6 +293,18 @@ Grinder.addRecipe(<minecraft:dye:11> * 3, <minecraft:yellow_flower>, 4, <minecra
 Grinder.addRecipe(<minecraft:dye:1> * 3, <minecraft:red_flower>,4, <minecraft:dye:1>, 0.86, <enderio:item_material:46>, 0.33);
 Grinder.addRecipe(<minecraft:sugar> * 3, <minecraft:reeds>, 4, <minecraft:sugar>, 0.77, <enderio:item_material:46>, 0.30);
 
+/* Add recipes for bone meal from dragon bones. */
+recipes.addShapeless(<minecraft:dye:15> * 5, [
+	<iceandfire:dragonbone>
+]);
+Grinder.addRecipe(<minecraft:dye:15> * 8, 
+	<iceandfire:dragonbone>, 6, <minecraft:dye:15>, 0.25
+);
+Pulverizer.addRecipe(<minecraft:dye:15> * 10, <iceandfire:dragonbone>, 4000);
+mods.extrautils2.Crusher.add(<minecraft:dye:15> * 10, <iceandfire:dragonbone>);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:dye:15> * 10, <iceandfire:dragonbone>, 6000);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:dye:15> * 10, <iceandfire:dragonbone>);
+
 /* Makes Actually Additions Crystal Clusters Craftable cuz they're pretty */
 Altar.addDiscoveryAltarRecipe("THBNewage:shaped/internal/altar/crystalCluster", <actuallyadditions:block_crystal_cluster_redstone>, 100, 80, [
 	null, <actuallyadditions:item_crystal_shard>, null,
@@ -346,3 +358,9 @@ recipes.addShaped(<iceandfire:lectern>, [[<ore:stickWood>], [<ore:plankWood>], [
 recipes.addShapeless(<minecraft:name_tag>, 
 	[<minecraft:name_tag:*>]
 );
+
+/*Fix metal rod recipe conflict.*/
+recipes.remove(<abyssalcraft:ironp>);
+recipes.addShaped(<abyssalcraft:ironp> * 3, [
+	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);	
