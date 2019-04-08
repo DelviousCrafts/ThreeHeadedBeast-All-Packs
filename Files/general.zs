@@ -11,7 +11,7 @@ import mods.astralsorcery.Grindstone;
 import mods.astralsorcery.Altar;
 import mods.bloodmagic.AlchemyTable;
 import mods.appliedenergistics2.Grinder;
-
+import mods.immersiveengineering.Squeezer;
 
 /* Disable duplicate Bronze armour (Favouring Thermal Foundation) */
 recipes.remove(<ic2:bronze_helmet>);
@@ -364,3 +364,16 @@ recipes.remove(<abyssalcraft:ironp>);
 recipes.addShaped(<abyssalcraft:ironp> * 3, [
 	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
 ]);	
+/* Add seeds to industrial squeezer */
+Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
+	<liquid:plantoil> * 120, <actuallyadditions:item_canola_seed>, 2048
+);
+Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
+	<liquid:plantoil> * 100, <natura:overworld_seeds>, 2048
+);
+Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
+	<liquid:plantoil> * 60, <actuallyadditions:item_rice_seed>, 2048
+);
+Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
+	<liquid:plantoil> * 60, <natura:overworld_seeds:1>, 2048
+);

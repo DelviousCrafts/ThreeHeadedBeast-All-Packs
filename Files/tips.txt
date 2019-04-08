@@ -6,8 +6,8 @@ Please feel free to add to this list of tips for new or returning players.
 	Right click and drag items in any grid to place one per slot.
 	Holding shift while pressing the plus in JEI will craft as many of that recipe as you have ingredients for.
 	Pressing the plus while in JEI will move the ingredients to the crafting grid.
-	Clicking an item in JEI will show you it's recipe.
-	Right Clicking an item in JEI will show you how it can be used.
+	Clicking an item in JEI or pressing r while hovering over it in any inventory will show you it's recipe.
+	Right Clicking an item in JEI or pressing u while hovering over it in any inventory will show you how it can be used.
 	Click the map icon on the left while in your inventory to claim chunks.
 	Claiming chunks will protect them from creeper explosions.
 	The arrows at the top of JEI recipes shows different ways to craft.

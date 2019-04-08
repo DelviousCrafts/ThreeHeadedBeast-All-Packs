@@ -176,7 +176,8 @@ val RArray = [
 	<abyssalcraft:abytinore>,
 	<abyssalcraft:abycopore>,
 	<abyssalcraft:abyiroore>,
-	<actuallyadditions:item_food:17>
+	<actuallyadditions:item_food:17>,
+	<avaritia:skullfire_sword>
 ] as IItemStack[];
 var HArray = [
 	<galacticraftplanets:basic_item_venus:1>,
