@@ -23,8 +23,8 @@ Hunter
 	
 Storage (all seperate strings)
 	storage drawers
-	refined storage
 	ae2
+	Thermal Expansion storage
 	misc storage utilities
 	iron backpacks
 	

@@ -1,7 +1,7 @@
 Please feel free to add to this list of tips for new or returning players.
 	
 	Pressing b creates a new waypoint where you're standing.
-	Give dragons a wide berth. No wider than that even.
+	Give dragons a wide berth... No wider than that even.
 	Click and drag items to seperate them evenly between slots.
 	Right click and drag items in any grid to place one per slot.
 	Holding shift while pressing the plus in JEI will craft as many of that recipe as you have ingredients for.
@@ -14,10 +14,11 @@ Please feel free to add to this list of tips for new or returning players.
 	Clicking on an ingot in JEI will show you it's stats for Tinkers Tools.
 	Golden Lasso's allow you to move passive mobs.
 	Cursed Lasso's allow you to move injured agressive mobs.
-	There's no shame in running away from a monster.
+    There's no shame in running away from a monster... if you can...
 	You should have at least some armor on before exploring the ruins.
 	All power transfer options are interchangeable except IndustrialCraft and BuildCraft.
 	Placing cooked meat on a drying rack makes leather.
 	Using a glass cutter to break glass and panes will return the block instead of breaking it.
 	Click the book icon on the top left while in your inventory to open the quest pages.
 	Entering /back will take you to your latest death.
+	Pressing J to open the map and clicking waypoints will allow you to edit or delete them, including death points.
