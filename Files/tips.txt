@@ -22,3 +22,4 @@ Please feel free to add to this list of tips for new or returning players.
 	Click the book icon on the top left while in your inventory to open the quest pages.
 	Entering /back will take you to your latest death.
 	Pressing J to open the map and clicking waypoints will allow you to edit or delete them, including death points.
+	Using logs instead of planks will give 4x the recipe results of chests and sticks.

@@ -88,7 +88,7 @@ recipes.addShaped(<avaritia:extreme_crafting_table>, [
 	/* Ranged Pump */
 recipes.addShaped(<rangedpumps:pump>, [
 	[<ore:obsidian>, <actuallyadditions:item_paxel_crystal_white>, <ore:obsidian>], 
-	[<ore:waterBucket>, perlBlock, <ore:lavaBucket>], 
+	[<minecraft:water_bucket>, perlBlock, <minecraft:lava_bucket>], 
 	[<ore:obsidian>, <actuallyadditions:item_paxel_crystal_white>, <ore:obsidian>]
 ]);
 	/* Solar Panel */

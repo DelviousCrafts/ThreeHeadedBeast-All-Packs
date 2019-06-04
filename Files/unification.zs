@@ -25,8 +25,6 @@ var PArray = [
 	<chisel:block_charcoal2>	
 ]as IItemStack[];
 var QArray = [
-	<appliedenergistics2:material>,
-	<appliedenergistics2:material:1>,
 	<actuallyadditions:item_misc:5>,
 	<botania:quartz:*>
 ] as IItemStack[];
@@ -333,7 +331,7 @@ recipes.remove(item);
 /* Unify all usable plate recipes */
 	/* Iron Plate */
 recipes.addShapeless(<thermalfoundation:material:32>, 
-	[<ore:ingotIron>, <immersiveengineering:tool>]
+	[<ore:ingotIron>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:32>, 
 	[<ore:ingotIron>, <ic2:forge_hammer:*>]
@@ -344,7 +342,7 @@ recipes.addShapeless(<thermalfoundation:material:32>,
 );
 	/* Gold Plate */
 recipes.addShapeless(<thermalfoundation:material:33>, 
-	[<ore:ingotGold>, <immersiveengineering:tool>]
+	[<ore:ingotGold>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:33>, 
 	[<ore:ingotGold>, <ic2:forge_hammer:*>]
@@ -355,7 +353,7 @@ recipes.addShapeless(<thermalfoundation:material:33>,
 );
 	/* Copper Plate */
 recipes.addShapeless(<thermalfoundation:material:320>, 
-	[<ore:ingotCopper>, <immersiveengineering:tool>]
+	[<ore:ingotCopper>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:320>, 
 	[<ore:ingotCopper>, <ic2:forge_hammer:*>]
@@ -366,14 +364,14 @@ recipes.addShapeless(<thermalfoundation:material:320>,
 );
 	/* Tin Plate */
 recipes.addShapeless(<thermalfoundation:material:321>, 
-	[<ore:ingotTin>, <immersiveengineering:tool>]
+	[<ore:ingotTin>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:321>, 
 	[<ore:ingotTin>, <ic2:forge_hammer:*>]
 );
 	/* Silver Plate */
 recipes.addShapeless(<thermalfoundation:material:322>, 
-	[<ore:ingotSilver>, <immersiveengineering:tool>]
+	[<ore:ingotSilver>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:322>, 
 	[<ore:ingotSilver>, <ic2:forge_hammer:*>]
@@ -384,7 +382,7 @@ recipes.addShapeless(<thermalfoundation:material:322>,
 );
 	/* Lead Plate */
 recipes.addShapeless(<thermalfoundation:material:323>, 
-	[<ore:ingotLead>, <immersiveengineering:tool>]
+	[<ore:ingotLead>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:323>, 
 	[<ore:ingotLead>, <ic2:forge_hammer:*>]
@@ -395,7 +393,7 @@ recipes.addShapeless(<thermalfoundation:material:323>,
 );
 	/* Aluminum Plate */
 recipes.addShapeless(<thermalfoundation:material:324>, 
-	[<ore:ingotAluminum>, <immersiveengineering:tool>]
+	[<ore:ingotAluminum>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:324>, 
 	[<ore:ingotAluminum>, <ic2:forge_hammer:*>]
@@ -406,7 +404,7 @@ recipes.addShapeless(<thermalfoundation:material:324>,
 );
 	/* Nickel Plate */
 recipes.addShapeless(<thermalfoundation:material:325>, 
-	[<ore:ingotNickel>, <immersiveengineering:tool>]
+	[<ore:ingotNickel>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:325>, 
 	[<ore:ingotNickel>, <ic2:forge_hammer:*>]
@@ -417,7 +415,7 @@ recipes.addShapeless(<thermalfoundation:material:325>,
 );
 	/* Steel Plate */
 recipes.addShapeless(<thermalfoundation:material:352>, 
-	[<ore:ingotSteel>, <immersiveengineering:tool>]
+	[<ore:ingotSteel>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:352>, 
 	[<ore:ingotSteel>, <ic2:forge_hammer:*>]
@@ -428,7 +426,7 @@ recipes.addShapeless(<thermalfoundation:material:352>,
 );
 	/* Electrum Plate */
 recipes.addShapeless(<thermalfoundation:material:353>, 
-	[<ore:ingotElectrum>, <immersiveengineering:tool>]
+	[<ore:ingotElectrum>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:353>, 
 	[<ore:ingotElectrum>, <ic2:forge_hammer:*>]
@@ -439,21 +437,21 @@ recipes.addShapeless(<thermalfoundation:material:353>,
 );
 	/* Invar Plate */
 recipes.addShapeless(<thermalfoundation:material:354>, 
-	[<ore:ingotInvar>, <immersiveengineering:tool>]
+	[<ore:ingotInvar>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:354>, 
 	[<ore:ingotInvar>, <ic2:forge_hammer:*>]
 );
 	/* Bronze Plate */
 recipes.addShapeless(<thermalfoundation:material:355>, 
-	[<ore:ingotBronze>, <immersiveengineering:tool>]
+	[<ore:ingotBronze>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:355>, 
 	[<ore:ingotBronze>, <ic2:forge_hammer:*>]
 );
 	/* Constantan Plate */
 recipes.addShapeless(<thermalfoundation:material:356>, 
-	[<ore:ingotConstantan>, <immersiveengineering:tool>]
+	[<ore:ingotConstantan>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:356>, 
 	[<ore:ingotConstantan>, <ic2:forge_hammer:*>]
@@ -464,14 +462,14 @@ recipes.addShapeless(<thermalfoundation:material:356>,
 );
 	/* Signalum Plate */
 recipes.addShapeless(<thermalfoundation:material:357>, 
-	[<ore:ingotSignalum>, <immersiveengineering:tool>]
+	[<ore:ingotSignalum>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:357>, 
 	[<ore:ingotSignalum>, <ic2:forge_hammer:*>]
 );
 	/* Lumium Plate */
 recipes.addShapeless(<thermalfoundation:material:358>, 
-	[<ore:ingotLumium>, <immersiveengineering:tool>]
+	[<ore:ingotLumium>, <immersiveengineering:tool:*>]
 );
 recipes.addShapeless(<thermalfoundation:material:358>, 
 	[<ore:ingotLumium>, <ic2:forge_hammer:*>]
@@ -875,3 +873,9 @@ recipes.addShaped(<galacticraftcore:panel_lighting>, [
 /* Rice dough makes bread instead */
 furnace.remove(<actuallyadditions:item_food:17>);
 furnace.addRecipe(<minecraft:bread>, <actuallyadditions:item_misc:9>, 15);
+
+/* Add block cutter recipes for alloy blocks */
+mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:359> * 9, <thermalfoundation:storage_alloy:7>, 3);
+mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:354> * 9, <thermalfoundation:storage_alloy:2>, 1);
+mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:357> * 9, <thermalfoundation:storage_alloy:5>, 1);
+mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:353> * 9, <thermalfoundation:storage_alloy:1>, 1);

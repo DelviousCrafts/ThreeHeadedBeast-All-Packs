@@ -8,6 +8,14 @@ var RArray = [
 	<thermalfoundation:material:513>,
 	<thermalfoundation:material:514>,
 	<thermalfoundation:material:515>,
+	<enderio:item_item_conduit>,
+	<enderio:item_liquid_conduit>,
+	<enderio:item_liquid_conduit:1>,
+	<enderio:item_liquid_conduit:2>,
+	<enderio:item_power_conduit>,
+	<enderio:item_power_conduit:1>,
+	<enderio:item_power_conduit:2>,
+	<enderio:item_redstone_conduit>,
 	<sgcraft:sgcorecrystal>,
 	<sgcraft:sgcontrollercrystal>,
 	<rftoolsdim:empty_dimension_tab>,
@@ -56,54 +64,44 @@ recipes.addShaped(<rftoolsdim:empty_dimension_tab>, [
 	[<buildcraftsilicon:redstone_chipset:4>, <ore:paper>, <buildcraftsilicon:redstone_chipset:4>]
 ]);
 recipes.addShaped (<enderio:item_item_conduit> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<enderio:item_alloy_nugget:5>, <ic2:crafting:1>, <enderio:item_alloy_nugget:5>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_liquid_conduit> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<ore:blockGlass>, <ic2:crafting:1>, <ore:blockGlass>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_liquid_conduit:1> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<ore:blockGlassHardened>, <ic2:crafting:1>, <ore:blockGlassHardened>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_liquid_conduit:2> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<enderio:item_alloy_nugget:2>, <ic2:crafting:1>, <enderio:item_alloy_nugget:2>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
-]);
-recipes.addShaped (<enderio:item_liquid_conduit:2> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
-	[<enderio:item_alloy_nugget:2>, <ic2:crafting:1>, <enderio:item_alloy_nugget:2>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_power_conduit> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:4>, <ic2:crafting:1>, <enderio:item_alloy_ingot:4>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_power_conduit:1> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:1>, <ic2:crafting:1>, <enderio:item_alloy_ingot:1>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_power_conduit:2> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:2>, <ic2:crafting:1>, <enderio:item_alloy_ingot:2>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 recipes.addShaped (<enderio:item_redstone_conduit> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:3>, <ic2:crafting:1>, <enderio:item_alloy_ingot:3>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
-]);
-recipes.addShaped (<enderio:item_redstone_conduit> * 8, [
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
-	[<enderio:item_alloy_ingot:3>, <ic2:crafting:1>, <enderio:item_alloy_ingot:3>],
-	[<enderio:item_material:22>, <enderio:item_material:22>, <enderio:item_material:22>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
 ]);
 
 /* Add avaritia recipes to make gate the bigger mods */
@@ -111,9 +109,9 @@ ExtremeCrafting.addShaped("Simple Machine Chassis", <enderio:item_material:0> * 
 	[null, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null],
 	[null, null, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, null, null],
-	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <abyssalcraft:cpearl>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
+	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <wizardry:devil_dust>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
 	[null, null, <minecraft:iron_bars>, <astralsorcery:itemcelestialcrystal:*>, <enderio:item_material:20>, <astralsorcery:itemcelestialcrystal:*>, <minecraft:iron_bars>, null, null],
-	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <abyssalcraft:cpearl>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
+	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <wizardry:devil_dust>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
 	[null, null, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, null, null],
 	[null, null, null, null, null, null, null, null, null],
 	[null, null, null, null, null, null, null, null, null]]
@@ -122,9 +120,9 @@ ExtremeCrafting.addShaped("Machine Frame", <thermalexpansion:frame:0> * 4, [
 	[null, null, null, null, null, null, null, null, null], 
 	[null, null, null, null, null, null, null, null, null],
 	[null, null, <minecraft:glass>, <minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>, <minecraft:glass>, null, null],
-	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <abyssalcraft:cpearl>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
+	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <wizardry:devil_dust>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
 	[null, null, <minecraft:glass>, <astralsorcery:itemcelestialcrystal:*>, <thermalfoundation:material:257>, <astralsorcery:itemcelestialcrystal:*>, <minecraft:glass>, null, null],
-	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <abyssalcraft:cpearl>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
+	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <wizardry:devil_dust>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
 	[null, null, <minecraft:glass>, <minecraft:iron_ingot>, <minecraft:glass>, <minecraft:iron_ingot>, <minecraft:glass>, null, null],
 	[null, null, null, null, null, null, null, null, null],
 	[null, null, null, null, null, null, null, null, null]]

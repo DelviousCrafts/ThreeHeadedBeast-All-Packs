@@ -90,7 +90,6 @@ StarlightInfusion.addInfusion(<moreplanets:koentus_copper_ore>, <thermalfoundati
 StarlightInfusion.addInfusion(<moreplanets:chalos_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<moreplanets:infected_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<moreplanets:fronos_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<abyssalcraft:abycopore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
 	/* Hidden Tin Ore */
 StarlightInfusion.addInfusion(<galacticraftplanets:venus:11>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<galacticraftplanets:mars:1>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
@@ -120,7 +119,6 @@ StarlightInfusion.addInfusion(<moreplanets:koentus_tin_ore>, <thermalfoundation:
 StarlightInfusion.addInfusion(<moreplanets:chalos_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<moreplanets:infected_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<moreplanets:fronos_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<abyssalcraft:abytinore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 	/* Hidden Iron Ore*/
 StarlightInfusion.addInfusion(<galacticraftplanets:asteroids_block:5>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<galacticraftplanets:mars:3>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
@@ -148,7 +146,6 @@ StarlightInfusion.addInfusion(<moreplanets:koentus_iron_ore>, <minecraft:iron_in
 StarlightInfusion.addInfusion(<moreplanets:chalos_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<moreplanets:infected_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<moreplanets:fronos_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<abyssalcraft:abyiroore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 	/* Hidden Aluminum Ore */
 StarlightInfusion.addInfusion(<galacticraftplanets:asteroids_block:3>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<galacticraftplanets:venus:6>, <thermalfoundation:material:132> * 3, true, 0.1, 200);

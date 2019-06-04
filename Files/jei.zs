@@ -155,11 +155,10 @@ val RArray = [
 	<extracells:storage.component:6>,
 	<extracells:storage.component:7>,
 	<theoneprobe:creativeprobe>,
-	<abyssalcraft:abytinore>,
-	<abyssalcraft:abycopore>,
-	<abyssalcraft:abyiroore>,
 	<actuallyadditions:item_food:17>,
-	<avaritia:skullfire_sword>
+	<avaritia:skullfire_sword>,
+	<quark:gunpowder_block>,
+	<ic2:lappack>
 ] as IItemStack[];
 var HArray = [
 	<galacticraftplanets:basic_item_venus:1>,

@@ -221,10 +221,10 @@ Casting.addBasinRecipe(
 	<thermaldynamics:duct_0:2>, <thermaldynamics:duct_0:6>, <liquid:redstone>, 200, true
 );
 Casting.addBasinRecipe(
-	<thermaldynamics:duct_0:3>, <thermaldynamics:duct_0:7>, <liquid:redstone>, 200, true
+	<thermaldynamics:duct_0:7>, <thermaldynamics:duct_0:3>, <liquid:redstone>, 200, true
 );
 Casting.addBasinRecipe(
-	<thermaldynamics:duct_0:8>, <thermaldynamics:duct_0:4>, <liquid:redstone>, 200, true
+	<thermaldynamics:duct_0:4>, <thermaldynamics:duct_0:8>, <liquid:redstone>, 200, true
 );
 Casting.addBasinRecipe(
 	<thermaldynamics:duct_32:2>, <thermaldynamics:duct_32>, <liquid:glowstone>, 200, true
@@ -265,6 +265,7 @@ furnace.addRecipe(<rftools:dimensional_shard>, <rftools:dimensional_shard_ore:2>
 mods.actuallyadditions.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:0>);
 mods.actuallyadditions.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:1>);
 mods.actuallyadditions.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:2>);
+mods.actuallyadditions.Crusher.addRecipe(<thermalfoundation:material:770>, <minecraft:obsidian>);
 
 mods.immersiveengineering.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:0>, 6000);
 mods.immersiveengineering.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:1>, 6000);
@@ -292,6 +293,7 @@ Grinder.addRecipe(<minecraft:blaze_powder> * 4, <minecraft:blaze_rod>, 4, <therm
 Grinder.addRecipe(<minecraft:dye:11> * 3, <minecraft:yellow_flower>, 4, <minecraft:dye:11>, 0.86, <enderio:item_material:46>, 0.33);
 Grinder.addRecipe(<minecraft:dye:1> * 3, <minecraft:red_flower>,4, <minecraft:dye:1>, 0.86, <enderio:item_material:46>, 0.33);
 Grinder.addRecipe(<minecraft:sugar> * 3, <minecraft:reeds>, 4, <minecraft:sugar>, 0.77, <enderio:item_material:46>, 0.30);
+
 
 /* Add recipes for bone meal from dragon bones. */
 recipes.addShapeless(<minecraft:dye:15> * 5, [
@@ -357,13 +359,8 @@ recipes.addShaped(<iceandfire:lectern>, [[<ore:stickWood>], [<ore:plankWood>], [
 /* Makes recipe to clear nametags */
 recipes.addShapeless(<minecraft:name_tag>, 
 	[<minecraft:name_tag:*>]
-);
+);	
 
-/*Fix metal rod recipe conflict.*/
-recipes.remove(<abyssalcraft:ironp>);
-recipes.addShaped(<abyssalcraft:ironp> * 3, [
-	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
-]);	
 /* Add seeds to industrial squeezer */
 Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
 	<liquid:plantoil> * 120, <actuallyadditions:item_canola_seed>, 2048
@@ -377,3 +374,45 @@ Squeezer.addRecipe(<actuallyadditions:item_misc:1>,
 Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
 	<liquid:plantoil> * 60, <natura:overworld_seeds:1>, 2048
 );
+
+/* Change Recipe for windmill to include tough fabric */
+recipes.remove(<immersiveengineering:material:12>);
+recipes.remove(<immersiveengineering:wooden_device1:1>);
+recipes.addShaped(<immersiveengineering:material:12>, [
+	[<immersiveengineering:material:5>, <immersiveengineering:material:5>, null],
+	[<immersiveengineering:material:5>, <immersiveengineering:material:11>, null],
+	[<immersiveengineering:material:5>, <immersiveengineering:material>, null]
+]);
+recipes.addShaped(<immersiveengineering:wooden_device1:1>, [
+	[<immersiveengineering:material:12>, <immersiveengineering:material:12>, <immersiveengineering:material:12>],
+	[<immersiveengineering:material:12>, <ore:ingotIron>, <immersiveengineering:material:12>],
+	[<immersiveengineering:material:12>, <immersiveengineering:material:12>, <immersiveengineering:material:12>]
+]);
+
+/* Fix mystical agriculture broken recipes */
+recipes.addShaped(<actuallyadditions:item_misc:5> * 6, [
+	[<mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>],
+	[<mysticalagriculture:black_quartz_essence>, null, <mysticalagriculture:black_quartz_essence>],
+	[<mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>]
+]);
+recipes.addShaped(<quark:tallow> * 2, [
+	[null, <mysticalagriculture:pig_essence>, null],
+	[null, <mysticalagriculture:pig_essence>, null],
+	[null, <mysticalagriculture:pig_essence>, null]
+]);
+recipes.addShaped(<xreliquary:mob_ingredient:4>, [
+	[<mysticalagriculture:slime_essence>, <mysticalagriculture:slime_essence>, <mysticalagriculture:slime_essence>],
+	[<mysticalagriculture:slime_essence>, <mysticalagriculture:slime_essence>, <mysticalagriculture:slime_essence>],
+	[<mysticalagriculture:slime_essence>, <mysticalagriculture:slime_essence>, <mysticalagriculture:slime_essence>]
+]);
+
+/* Fix some ores not smelting */
+furnace.addRecipe(<minecraft:iron_ingot>, <ore:oreIron>);
+
+/* Fix Marble Pillar Recipe */
+recipes.remove(<astralsorcery:blockmarble:2>);
+recipes.addShaped(<astralsorcery:blockmarble:2> * 6, [
+[<astralsorcery:blockmarble>, <astralsorcery:blockmarble>],
+[<astralsorcery:blockmarble>, <astralsorcery:blockmarble>],
+[<astralsorcery:blockmarble>, <astralsorcery:blockmarble>]
+]);
