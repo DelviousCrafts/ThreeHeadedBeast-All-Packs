@@ -110,7 +110,7 @@ ExtremeCrafting.addShaped("Simple Machine Chassis", <enderio:item_material:0> * 
 	[null, null, null, null, null, null, null, null, null],
 	[null, null, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, null, null],
 	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <wizardry:devil_dust>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
-	[null, null, <minecraft:iron_bars>, <astralsorcery:itemcraftingcomponent:1>e, <enderio:item_material:20>, <astralsorcery:itemcraftingcomponent:1>, <minecraft:iron_bars>, null, null],
+	[null, null, <minecraft:iron_bars>, <astralsorcery:itemcraftingcomponent:1>, <enderio:item_material:20>, <astralsorcery:itemcraftingcomponent:1>, <minecraft:iron_bars>, null, null],
 	[null, null, <minecraft:iron_ingot>, <ic2:crafting:1>, <wizardry:devil_dust>, <ic2:crafting:1>, <minecraft:iron_ingot>, null, null],
 	[null, null, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, <minecraft:iron_ingot>, <minecraft:iron_bars>, null, null],
 	[null, null, null, null, null, null, null, null, null],

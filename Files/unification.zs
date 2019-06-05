@@ -873,9 +873,3 @@ recipes.addShaped(<galacticraftcore:panel_lighting>, [
 /* Rice dough makes bread instead */
 furnace.remove(<actuallyadditions:item_food:17>);
 furnace.addRecipe(<minecraft:bread>, <actuallyadditions:item_misc:9>, 15);
-
-/* Add block cutter recipes for alloy blocks */
-mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:359> * 9, <thermalfoundation:storage_alloy:7>, 3);
-mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:354> * 9, <thermalfoundation:storage_alloy:2>, 1);
-mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:357> * 9, <thermalfoundation:storage_alloy:5>, 1);
-mods.ic2.BlockCutter.addRecipe(<thermalfoundation:material:353> * 9, <thermalfoundation:storage_alloy:1>, 1);
