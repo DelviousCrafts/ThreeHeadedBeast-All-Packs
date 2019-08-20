@@ -24,4 +24,4 @@ Please feel free to add to this list of tips for new or returning players.
 	Pressing J to open the map and clicking waypoints will allow you to edit or delete them, including death points.
 	Using logs instead of planks will give 4x the recipe results of chests and sticks.
 	Eating heart canisters will grant you an extra heart.
-	Throwing a full size rock crystal or celestial crystal has a chance of splitting the crystal into two.
+	Throwing a full size rock crystal or celestial crystal into liquid starlight has a chance of splitting the crystal into two.

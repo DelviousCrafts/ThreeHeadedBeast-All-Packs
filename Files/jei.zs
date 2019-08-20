@@ -101,39 +101,39 @@ val RArray = [
 	<extraplanets:iapetus:5>, /* Copper Ore */
 	<extraplanets:wafer>, /* Unused Diamond Wafer */
 	<extraplanets:wafer:1>, /* Unused Carbon Wafer */
-	<moreplanets:diona_tin_ore>, /* Tin Ore*/
-	<moreplanets:diona_copper_ore>, /* Copper Ore */
-	<moreplanets:diona_aluminum_ore>, /* Aluminum Ore */
-	<moreplanets:koentus_tin_ore>, /* Tin Ore */
-	<moreplanets:koentus_copper_ore>, /* Copper Ore */
-	<moreplanets:koentus_aluminum_ore>, /* Aluminum Ore */
-	<moreplanets:koentus_iron_ore>, /* Iron Ore */
-	<moreplanets:chalos_iron_ore>, /* Iron Ore */
-	<moreplanets:chalos_tin_ore>, /* Tin Ore */
-	<moreplanets:chalos_copper_ore>, /* Copper Ore */
-	<moreplanets:chalos_aluminum_ore>, /* Aluminum Ore */
-	<moreplanets:infected_coal_ore>, /* Coal Ore */
-	<moreplanets:infected_iron_ore>, /* Iron Ore */
-	<moreplanets:infected_gold_ore>, /* Gold Ore */
-	<moreplanets:infected_diamond_ore>, /* Diamond Ore */
-	<moreplanets:infected_redstone_ore>, /* Redstone Ore */
-	<moreplanets:infected_lapis_ore>, /* Lapis Ore */
-	<moreplanets:infected_emerald_ore>, /* Emerald Ore */
-	<moreplanets:infected_aluminum_ore>, /* Aluminum Ore */
-	<moreplanets:infected_copper_ore>, /* Copper Ore */
-	<moreplanets:infected_tin_ore>, /* Tin Ore */
-	<moreplanets:fronos_iron_ore>, /* Iron Ore */
-	<moreplanets:fronos_gold_ore>, /* Gold Ore */
-	<moreplanets:fronos_tin_ore>, /* Tin Ore */
-	<moreplanets:fronos_copper_ore>, /* Copper Ore */
-	<moreplanets:fronos_aluminum_ore>, /* Aluminum Ore */
-	<moreplanets:fronos_lead_ore>, /* Lead Ore */
-	<moreplanets:fronos_coal_ore>, /* Coal Ore */
-	<moreplanets:fronos_lapis_ore>, /* Lapis Ore */
-	<moreplanets:fronos_diamond_ore>, /* Diamond Ore */
-	<moreplanets:fronos_emerald_ore>, /* Emerald Ore */
-	<moreplanets:fronos_redstone_ore>, /* Redstone Ore */
-	<moreplanets:fronos_quartz_ore>, /* Quartz Ore */
+	<moreplanets:diona_block:6>, /* Tin Ore*/
+	<moreplanets:diona_block:7>, /* Copper Ore */
+	<moreplanets:diona_block:8>, /* Aluminum Ore */
+	<moreplanets:koentus_block:6>, /* Tin Ore */
+	<moreplanets:koentus_block:7>, /* Copper Ore */
+	<moreplanets:koentus_block:8>, /* Aluminum Ore */
+	<moreplanets:koentus_block:9>, /* Iron Ore */
+	<moreplanets:chalos_block:5>, /* Iron Ore */
+	<moreplanets:chalos_block:6>, /* Tin Ore */
+	<moreplanets:chalos_block:7>, /* Copper Ore */
+	<moreplanets:chalos_block:8>, /* Aluminum Ore */
+	<moreplanets:nibiru_ore>, /* Coal Ore */
+	<moreplanets:nibiru_ore:1>, /* Iron Ore */
+	<moreplanets:nibiru_ore:2>, /* Gold Ore */
+	<moreplanets:nibiru_ore:3>, /* Diamond Ore */
+	<moreplanets:nibiru_ore:4>, /* Redstone Ore */
+	<moreplanets:nibiru_ore:5>, /* Lapis Ore */
+	<moreplanets:nibiru_ore:6>, /* Emerald Ore */
+	<moreplanets:nibiru_ore:7>, /* Aluminum Ore */
+	<moreplanets:nibiru_ore:8>, /* Copper Ore */
+	<moreplanets:nibiru_ore:9>, /* Tin Ore */
+	<moreplanets:fronos_ore>, /* Iron Ore */
+	<moreplanets:fronos_ore:1>, /* Gold Ore */
+	<moreplanets:fronos_ore:2>, /* Tin Ore */
+	<moreplanets:fronos_ore:3>, /* Copper Ore */
+	<moreplanets:fronos_ore:4>, /* Aluminum Ore */
+	<moreplanets:fronos_ore:5>, /* Lead Ore */
+	<moreplanets:fronos_ore:6>, /* Coal Ore */
+	<moreplanets:fronos_ore:7>, /* Lapis Ore */
+	<moreplanets:fronos_ore:8>, /* Diamond Ore */
+	<moreplanets:fronos_ore:9>, /* Emerald Ore */
+	<moreplanets:fronos_ore:10>, /* Redstone Ore */
+	<moreplanets:fronos_ore:12>, /* Quartz Ore */
 	<actuallyadditions:block_misc:5>,
 	<chisel:block_charcoal2>,
 	<draconicevolution:draconium_block:1>,
@@ -157,7 +157,6 @@ val RArray = [
 	<theoneprobe:creativeprobe>,
 	<actuallyadditions:item_food:17>,
 	<avaritia:skullfire_sword>,
-	<quark:gunpowder_block>,
 	<ic2:lappack>
 ] as IItemStack[];
 var HArray = [
@@ -209,7 +208,122 @@ var HArray = [
 	<iceandfire:armor_silver_metal_boots>,
 	<iceandfire:armor_silver_metal_helmet>,
 	<iceandfire:armor_silver_metal_chestplate>,
-	<iceandfire:armor_silver_metal_leggings>
+	<iceandfire:armor_silver_metal_leggings>,
+	<natura:maple_button>,
+	<natura:maple_pressure_plate>,
+	<natura:silverbell_button>,
+	<natura:silverbell_pressure_plate>,
+	<natura:maple_trap_door>,
+	<natura:tiger_trap_door>,
+	<natura:willow_button>,
+	<natura:willow_trap_door>,
+	<natura:eucalyptus_button>,
+	<natura:eucalyptus_pressure_plate>,
+	<natura:eucalyptus_trap_door>,
+	<natura:hopseed_button>,
+	<natura:hopseed_pressure_plate>,
+	<natura:hopseed_trap_door>,
+	<natura:sakura_button>,
+	<natura:sakura_pressure_plate>,
+	<natura:sakura_trap_door>,
+	<natura:redwood_button>,
+	<natura:redwood_trap_door>,
+	<natura:redwood_pressure_plate>,
+	<natura:willow_pressure_plate>,
+	<natura:ghostwood_button>,
+	<natura:ghostwood_pressure_plate>,
+	<natura:ghostwood_trap_door>,
+	<natura:bloodwood_button>,
+	<natura:bloodwood_pressure_plate>,
+	<natura:bloodwood_trap_door>,
+	<natura:fusewood_button>,
+	<natura:fusewood_pressure_plate>,
+	<natura:fusewood_trap_door>,
+	<natura:darkwood_button>,
+	<natura:darkwood_pressure_plate>,
+	<natura:darkwood_trap_door>,
+	<natura:tiger_button>,
+	<natura:tiger_pressure_plate>,
+	<natura:amaranth_pressure_plate>,
+	<natura:amaranth_trap_door>,
+	<natura:silverbell_trap_door>,
+	<natura:overworld_workbenches>,
+	<natura:overworld_workbenches:1>,
+	<natura:overworld_workbenches:2>,
+	<natura:overworld_workbenches:3>,
+	<natura:overworld_workbenches:4>,
+	<natura:overworld_workbenches:5>,
+	<natura:overworld_workbenches:6>,
+	<natura:overworld_workbenches:7>,
+	<natura:overworld_workbenches:8>,
+	<natura:nether_workbenches>,
+	<natura:nether_workbenches:1>,
+	<natura:nether_workbenches:2>,
+	<natura:nether_workbenches:3>,
+	<natura:ghostwood_sword>,
+	<natura:ghostwood_pickaxe>,
+	<natura:ghostwood_shovel>,
+	<natura:ghostwood_axe>,
+	<natura:ghostwood_kama>,
+	<natura:ghostwood_bow>,
+	<natura:bloodwood_sword>,
+	<natura:bloodwood_pickaxe>,
+	<natura:bloodwood_shovel>,
+	<natura:bloodwood_axe>,
+	<natura:bloodwood_kama>,
+	<natura:bloodwood_bow>,
+	<natura:darkwood_sword>,
+	<natura:darkwood_pickaxe>,
+	<natura:darkwood_shovel>,
+	<natura:darkwood_axe>,
+	<natura:darkwood_kama>,
+	<natura:darkwood_bow>,
+	<natura:fusewood_sword>,
+	<natura:fusewood_pickaxe>,
+	<natura:fusewood_shovel>,
+	<natura:fusewood_axe>,
+	<natura:fusewood_kama>,
+	<natura:fusewood_bow>,
+	<natura:netherquartz_sword>,
+	<natura:netherquartz_pickaxe>,
+	<natura:netherquartz_shovel>,
+	<natura:netherquartz_axe>,
+	<natura:netherquartz_kama>,
+	<natura:sticks>,
+	<natura:sticks:1>,
+	<natura:sticks:2>,
+	<natura:sticks:3>,
+	<natura:sticks:4>,
+	<natura:sticks:5>,
+	<natura:sticks:6>,
+	<natura:sticks:7>,
+	<natura:sticks:8>,
+	<natura:sticks:9>,
+	<natura:sticks:10>,
+	<natura:sticks:11>,
+	<natura:sticks:12>,
+	<quark:vertical_planks>,
+	<quark:vertical_planks:1>,
+	<quark:vertical_planks:2>,
+	<quark:vertical_planks:3>,
+	<quark:vertical_planks:4>,
+	<quark:vertical_planks:5>,
+	<quark:vertical_stained_planks>,
+	<quark:vertical_stained_planks:1>,
+	<quark:vertical_stained_planks:2>,
+	<quark:vertical_stained_planks:3>,
+	<quark:vertical_stained_planks:4>,
+	<quark:vertical_stained_planks:5>,
+	<quark:vertical_stained_planks:6>,
+	<quark:vertical_stained_planks:7>,
+	<quark:vertical_stained_planks:8>,
+	<quark:vertical_stained_planks:9>,
+	<quark:vertical_stained_planks:10>,
+	<quark:vertical_stained_planks:11>,
+	<quark:vertical_stained_planks:12>,
+	<quark:vertical_stained_planks:13>,
+	<quark:vertical_stained_planks:14>,
+	<quark:vertical_stained_planks:15>
 ] as IItemStack[];
 
 /* Hide all items necessary for this script to work*/

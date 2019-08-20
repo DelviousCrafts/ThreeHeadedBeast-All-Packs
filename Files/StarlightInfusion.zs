@@ -85,11 +85,11 @@ StarlightInfusion.addInfusion(<extraplanets:titan:5>, <thermalfoundation:materia
 StarlightInfusion.addInfusion(<extraplanets:oberon:5>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<extraplanets:titania:5>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<extraplanets:iapetus:5>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:diona_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:koentus_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:chalos_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:infected_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_copper_ore>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:diona_block:7>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:koentus_block:7>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:chalos_block:7>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:8>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:3>, <thermalfoundation:material:128> * 3, true, 0.1, 200);
 	/* Hidden Tin Ore */
 StarlightInfusion.addInfusion(<galacticraftplanets:venus:11>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<galacticraftplanets:mars:1>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
@@ -114,11 +114,11 @@ StarlightInfusion.addInfusion(<extraplanets:titan:4>, <thermalfoundation:materia
 StarlightInfusion.addInfusion(<extraplanets:oberon:4>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<extraplanets:titania:4>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<extraplanets:iapetus:4>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:diona_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:koentus_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:chalos_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:infected_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_tin_ore>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:diona_block:6>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:koentus_block:6>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:chalos_block:6>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:9>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:2>, <thermalfoundation:material:129> * 3, true, 0.1, 200);
 	/* Hidden Iron Ore*/
 StarlightInfusion.addInfusion(<galacticraftplanets:asteroids_block:5>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<galacticraftplanets:mars:3>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
@@ -142,42 +142,44 @@ StarlightInfusion.addInfusion(<extraplanets:titan:3>, <minecraft:iron_ingot> * 3
 StarlightInfusion.addInfusion(<extraplanets:oberon:3>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<extraplanets:titania:3>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<extraplanets:iapetus:3>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:koentus_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:chalos_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:infected_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_iron_ore>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:koentus_block:9>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:chalos_block:5>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:1>, <minecraft:iron_ingot> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore>, 
+<minecraft:iron_ingot> * 3, true, 0.1, 200);
 	/* Hidden Aluminum Ore */
 StarlightInfusion.addInfusion(<galacticraftplanets:asteroids_block:3>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
 StarlightInfusion.addInfusion(<galacticraftplanets:venus:6>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:diona_aluminum_ore>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:koentus_aluminum_ore>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:chalos_aluminum_ore>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:infected_aluminum_ore>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_aluminum_ore>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:diona_block:8>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:koentus_block:8>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:chalos_block:8>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:7>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:4>, <thermalfoundation:material:132> * 3, true, 0.1, 200);
 	/* Hidden Nickel Ore */
 StarlightInfusion.addInfusion(<extraplanets:jupiter:7>, <thermalfoundation:material:133> * 3, true, 0.1, 200);
 	/* Hidden Gold Ore */
-StarlightInfusion.addInfusion(<moreplanets:infected_coal_ore>, <minecraft:gold_ingot> * 3, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_coal_ore>, <minecraft:gold_ingot> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:2>, 
+<minecraft:gold_ingot> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:1>, <minecraft:gold_ingot> * 3, true, 0.1, 200);
 	/* Hidden Platinum Ore */
 StarlightInfusion.addInfusion(<extraplanets:kepler22b:13>, <thermalfoundation:material:134> * 3, true, 0.1, 200);
 	/* Hidden Quartz Ore */
 StarlightInfusion.addInfusion(<galacticraftplanets:venus:9>, <minecraft:quartz> * 9, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_quartz_ore>, <minecraft:quartz> * 9, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:12>, <minecraft:quartz> * 9, true, 0.1, 200);
 	/* Hidden Lead Ore */
-StarlightInfusion.addInfusion(<moreplanets:fronos_lead_ore>, <thermalfoundation:material:131> * 3, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:5>, <thermalfoundation:material:131> * 3, true, 0.1, 200);
 	/* Hidden Coal Ore */
-StarlightInfusion.addInfusion(<moreplanets:infected_coal_ore>, <minecraft:coal_block>, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_coal_ore>, <minecraft:coal_block>, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore>, <minecraft:coal_block>, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:6>, <minecraft:coal_block>, true, 0.1, 200);
 	/* Hidden Redstone Ore */
-StarlightInfusion.addInfusion(<moreplanets:infected_redstone_ore>, <minecraft:redstone_block>, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_redstone_ore>, <minecraft:redstone_block>, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:4>, <minecraft:redstone_block>, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:10>, <minecraft:redstone_block>, true, 0.1, 200);
 	/* Hidden Diamond Ore */
-StarlightInfusion.addInfusion(<moreplanets:infected_diamond_ore>, <minecraft:diamond> * 4, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_diamond_ore>, <minecraft:diamond> * 4, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:3>, <minecraft:diamond> * 4, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:8>, <minecraft:diamond> * 4, true, 0.1, 200);
 	/* Hidden Emerald Ore */
-StarlightInfusion.addInfusion(<moreplanets:infected_emerald_ore>, <minecraft:emerald> * 4, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_emerald_ore>, <minecraft:emerald> * 4, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:6>, <minecraft:emerald> * 4, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:9>, <minecraft:emerald> * 4, true, 0.1, 200);
 	/* Hidden Lapis Ore */
-StarlightInfusion.addInfusion(<moreplanets:infected_lapis_ore>, <minecraft:lapis_block>, true, 0.1, 200);
-StarlightInfusion.addInfusion(<moreplanets:fronos_lapis_ore>, <minecraft:lapis_block>, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:nibiru_ore:5>, <minecraft:lapis_block>, true, 0.1, 200);
+StarlightInfusion.addInfusion(<moreplanets:fronos_ore:7>, <minecraft:lapis_block>, true, 0.1, 200);

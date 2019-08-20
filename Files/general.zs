@@ -217,6 +217,11 @@ ExtremeCrafting.addShaped("neutroniumSolar", <solarflux:solar_panel_neutronium> 
 ]);
 
 /* Add casting to fill TE Ducts*/
+Casting.removeTableRecipe(<thermaldynamics:duct_0:2>);
+Casting.removeTableRecipe(<thermaldynamics:duct_0:3>);
+Casting.removeTableRecipe(<thermaldynamics:duct_0:4>);
+Casting.removeTableRecipe(<thermaldynamics:duct_32:2>);
+Casting.removeTableRecipe(<thermaldynamics:duct_32:3>);
 Casting.addBasinRecipe(
 	<thermaldynamics:duct_0:2>, <thermaldynamics:duct_0:6>, <liquid:redstone>, 200, true
 );
@@ -231,6 +236,9 @@ Casting.addBasinRecipe(
 );
 Casting.addBasinRecipe(
 	<thermaldynamics:duct_32:3>, <thermaldynamics:duct_32:1>, <liquid:glowstone>, 200, true
+);
+Casting.addBasinRecipe(
+	<thermalfoundation:glass:3>, <ore:obsidian>, <liquid:lead>, 144, true
 );
 
 /* Remove melting recipes for repair */
@@ -415,4 +423,309 @@ recipes.addShaped(<astralsorcery:blockmarble:2> * 6, [
 [<astralsorcery:blockmarble>, <astralsorcery:blockmarble>],
 [<astralsorcery:blockmarble>, <astralsorcery:blockmarble>],
 [<astralsorcery:blockmarble>, <astralsorcery:blockmarble>]
+]);
+
+/* Fix Missing pieces chairs not having recipes */
+val leg = <missing_pieces:spindle>;
+val tall = <missing_pieces:tall_spindle>;
+val flat = <missing_pieces:flat_spindle>;
+
+recipes.addShaped(<missing_pieces:acacia_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:4>, <minecraft:planks:4>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:acacia_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:4>, <minecraft:planks:4>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:acacia_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:4>, <minecraft:planks:4>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:birch_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:2>, <minecraft:planks:2>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:birch_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:2>, <minecraft:planks:2>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:birch_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:2>, <minecraft:planks:2>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, tall, tall]
+]);recipes.addShaped(<missing_pieces:dark_oak_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:dark_oak_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:5>, <minecraft:planks:5>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:jungle_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:3>, <minecraft:planks:3>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:jungle_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:3>, <minecraft:planks:3>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:jungle_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:3>, <minecraft:planks:3>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:oak_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks>, <minecraft:planks>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:oak_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks>, <minecraft:planks>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:oak_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks>, <minecraft:planks>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:spruce_chair> * 2, [
+	[null, null, leg],
+	[null, <minecraft:planks:1>, <minecraft:planks:1>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:spruce_chair:4> * 2, [
+	[null, null, flat],
+	[null, <minecraft:planks:1>, <minecraft:planks:1>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:spruce_chair:8> *2, [
+	[null, null, flat],
+	[null, <minecraft:planks:1>, <minecraft:planks:1>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:amaranth_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:2>, <natura:overworld_planks:2>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:amaranth_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:2>, <natura:overworld_planks:2>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:amaranth_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:2>, <natura:overworld_planks:2>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:darkwood_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:nether_planks:2>, <natura:nether_planks:2>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:darkwood_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:nether_planks:2>, <natura:nether_planks:2>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:darkwood_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:nether_planks:2>, <natura:nether_planks:2>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:eucalyptus_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:5>, <natura:overworld_planks:5>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:eucalyptus_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:5>, <natura:overworld_planks:5>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:eucalyptus_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:5>, <natura:overworld_planks:5>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:fusewood_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:fusewood_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:fusewood_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:nether_planks:3>, <natura:nether_planks:3>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:ghostwood_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:nether_planks>, <natura:nether_planks>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:ghostwood_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:nether_planks>, <natura:nether_planks>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:ghostwood_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:nether_planks>, <natura:nether_planks>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:hopseed_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:6>, <natura:overworld_planks:6>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:hopseed_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:6>, <natura:overworld_planks:6>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:hopseed_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:6>, <natura:overworld_planks:6>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:maple_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks>, <natura:overworld_planks>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:maple_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks>, <natura:overworld_planks>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:maple_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks>, <natura:overworld_planks>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:redwood_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:8>, <natura:overworld_planks:8>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:redwood_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:8>, <natura:overworld_planks:8>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:redwood_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:8>, <natura:overworld_planks:8>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:sakura_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:7>, <natura:overworld_planks:7>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:sakura_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:7>, <natura:overworld_planks:7>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:sakura_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:7>, <natura:overworld_planks:7>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:silverbell_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:1>, <natura:overworld_planks:1>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:silverbell_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:1>, <natura:overworld_planks:1>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:silverbell_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:1>, <natura:overworld_planks:1>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:tiger_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:3>, <natura:overworld_planks:3>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:tiger_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:3>, <natura:overworld_planks:3>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:tiger_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:3>, <natura:overworld_planks:3>],
+	[null, tall, tall]
+]);
+recipes.addShaped(<missing_pieces:willow_chair> * 2, [
+	[null, null, leg],
+	[null, <natura:overworld_planks:4>, <natura:overworld_planks:4>],
+	[null, leg, leg]
+]);
+recipes.addShaped(<missing_pieces:willow_chair:4> * 2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:4>, <natura:overworld_planks:4>],
+	[null, flat, flat]
+]);
+recipes.addShaped(<missing_pieces:willow_chair:8> *2, [
+	[null, null, flat],
+	[null, <natura:overworld_planks:4>, <natura:overworld_planks:4>],
+	[null, tall, tall]
 ]);

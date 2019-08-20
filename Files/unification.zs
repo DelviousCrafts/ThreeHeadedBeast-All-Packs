@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.thermalexpansion.Compactor;
 import mods.immersiveengineering.MetalPress;
+import mods.appliedenergistics2.Grinder;
 
 /* Declare values and variables to make my life easier */
 var PArray = [
@@ -113,6 +114,35 @@ var MBArray = [
 	<extraplanets:decorative_blocks:6>,
 	<extraplanets:decorative_blocks:7>
 ]as IItemStack[];
+var NArray = [
+	<natura:maple_fence>,
+	<natura:maple_fence_gate>,
+	<natura:silverbell_fence>,
+	<natura:silverbell_fence_gate>,
+	<natura:amaranth_fence>,
+	<natura:amaranth_fence_gate>,
+	<natura:tiger_fence>,
+	<natura:tiger_fence_gate>,
+	<natura:willow_fence>,
+	<natura:willow_fence_gate>,
+	<natura:eucalyptus_fence>,
+	<natura:eucalyptus_fence_gate>,
+	<natura:hopseed_fence>,
+	<natura:hopseed_fence_gate>,
+	<natura:sakura_fence>,
+	<natura:sakura_fence_gate>,
+	<natura:redwood_fence>,
+	<natura:redwood_fence_gate>,
+	<natura:ghostwood_fence>,
+	<natura:ghostwood_fence_gate>,
+	<natura:bloodwood_fence>,
+	<natura:bloodwood_fence_gate>,
+	<natura:fusewood_fence>,
+	<natura:fusewood_fence_gate>,
+	<natura:darkwood_fence>,
+	<natura:darkwood_fence_gate>
+] as IItemStack[];
+val stick = <ore:stickWood>;
 
 /* Remove Recipes for this script to work properly */
 for item in RArray {
@@ -692,11 +722,11 @@ mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:3>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier9_items:4>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier10_items:4>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:6>);
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_illenium>);
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_setrorium>);
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_diremsium>);
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_zyptorium>);
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_extrailonite>);
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:diona_item:2>); /* Illenium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:diona_item:3>); /* Setrorium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:chalos_item:2>); /* Diremsium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:chalos_item:3>); /* Zyptorium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:fronos_item:1>); /* Extrailonite */
 
 /* Fix Galacticraft Compressor recipes expense and clean up unification */
 	/* Carbon */
@@ -785,24 +815,24 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_
 	<galacticraftplanets:item_basic_asteroids>
 );
 	/* Setrorium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_setrorium>,
-	<moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:diona_item:3>,
+	<moreplanets:diona_item:1>, <moreplanets:diona_item:1>, <moreplanets:diona_item:1>, <moreplanets:diona_item:1>, <moreplanets:diona_item:1>
 );
 	/* Illenium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_illenium>,
-	<moreplanets:illenium_ingot>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:diona_item:2>,
+	<moreplanets:diona_item>
 );
 	/* Diremsium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_diremsium>,
-	<moreplanets:diremsium_ingot>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:chalos_item:2>,
+	<moreplanets:chalos_item>
 );
 	/* Zyptorium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_zyptorium>,
-	<moreplanets:zyptorium_ingot>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:chalos_item:3>,
+	<moreplanets:chalos_item:1>
 );
 	/* Extrailonite */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_extrailonite>,
-	<moreplanets:extrailonite_ingot>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:fronos_item:1>,
+	<moreplanets:fronos_item>
 );
 	/* Gold */
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<thermalfoundation:material:33>,
@@ -840,7 +870,7 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<thermalfoundation:materia
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<thermalfoundation:material:359>,
 	<thermalfoundation:material:167>
 );
-/* Fix Galacticraft Recipes not Ore Dict */
+/* Fix Galacticraft Recipes not Ore Dictd */
 recipes.addShaped(<extraplanets:cloth>, [
 	[<ore:woolBlock>, <ore:woolBlock>], 
 	[<ore:woolBlock>, <ore:woolBlock>]
@@ -873,3 +903,143 @@ recipes.addShaped(<galacticraftcore:panel_lighting>, [
 /* Rice dough makes bread instead */
 furnace.remove(<actuallyadditions:item_food:17>);
 furnace.addRecipe(<minecraft:bread>, <actuallyadditions:item_misc:9>, 15);
+
+/* Grinding wheat makes flour instead of dough */
+Grinder.removeRecipe(<minecraft:wheat>);
+Grinder.addRecipe(<natura:materials:2> * 2, <minecraft:wheat>, 4);
+
+
+/* Fix Natura stick recipes */
+for item in NArray {
+	recipes.remove(item);
+}
+recipes.addShaped(<natura:maple_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks>, stick, <natura:overworld_planks>],
+	[<natura:overworld_planks>, stick, <natura:overworld_planks>]
+]);
+recipes.addShaped(<natura:maple_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks>, stick],
+	[stick, <natura:overworld_planks>, stick]
+]);
+recipes.addShaped(<natura:silverbell_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:1>, stick, <natura:overworld_planks:1>],
+	[<natura:overworld_planks:1>, stick, <natura:overworld_planks:1>]
+]);
+recipes.addShaped(<natura:silverbell_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:1>, stick],
+	[stick, <natura:overworld_planks:1>, stick]
+]);
+recipes.addShaped(<natura:amaranth_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:2>, stick, <natura:overworld_planks:2>],
+	[<natura:overworld_planks:2>, stick, <natura:overworld_planks:2>]
+]);
+recipes.addShaped(<natura:amaranth_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:2>, stick],
+	[stick, <natura:overworld_planks:2>, stick]
+]);
+recipes.addShaped(<natura:tiger_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:3>, stick, <natura:overworld_planks:3>],
+	[<natura:overworld_planks:3>, stick, <natura:overworld_planks:3>]
+]);
+recipes.addShaped(<natura:tiger_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:3>, stick],
+	[stick, <natura:overworld_planks:3>, stick]
+]);
+recipes.addShaped(<natura:willow_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:4>, stick, <natura:overworld_planks:4>],
+	[<natura:overworld_planks:4>, stick, <natura:overworld_planks:4>]
+]);
+recipes.addShaped(<natura:willow_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:4>, stick],
+	[stick, <natura:overworld_planks:4>, stick]
+]);
+recipes.addShaped(<natura:eucalyptus_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:5>, stick, <natura:overworld_planks:5>],
+	[<natura:overworld_planks:5>, stick, <natura:overworld_planks:5>]
+]);
+recipes.addShaped(<natura:eucalyptus_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:5>, stick],
+	[stick, <natura:overworld_planks:5>, stick]
+]);
+recipes.addShaped(<natura:hopseed_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:6>, stick, <natura:overworld_planks:6>],
+	[<natura:overworld_planks:6>, stick, <natura:overworld_planks:6>]
+]);
+recipes.addShaped(<natura:hopseed_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:6>, stick],
+	[stick, <natura:overworld_planks:6>, stick]
+]);
+recipes.addShaped(<natura:sakura_fence> *3, [
+	[null, null, null],
+	[<natura:overworld_planks:7>, stick, <natura:overworld_planks:7>],
+	[<natura:overworld_planks:7>, stick, <natura:overworld_planks:7>]
+]);
+recipes.addShaped(<natura:sakura_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:7>, stick],
+	[stick, <natura:overworld_planks:7>, stick]
+]);
+recipes.addShaped(<natura:redwood_fence> * 3, [
+	[null, null, null],
+	[<natura:overworld_planks:8>, stick, <natura:overworld_planks:8>],
+	[<natura:overworld_planks:8>, stick, <natura:overworld_planks:8>]
+]);
+recipes.addShaped(<natura:redwood_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:overworld_planks:8>, stick],
+	[stick, <natura:overworld_planks:8>, stick]
+]);
+recipes.addShaped(<natura:ghostwood_fence> *3, [
+	[null, null, null],
+	[<natura:nether_planks>, stick, <natura:nether_planks>],
+	[<natura:nether_planks>, stick, <natura:nether_planks>]
+]);
+recipes.addShaped(<natura:ghostwood_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:nether_planks>, stick],
+	[stick, <natura:nether_planks>, stick]
+]);
+recipes.addShaped(<natura:bloodwood_fence> * 3, [
+	[null, null, null],
+	[<natura:nether_planks:1>, stick, <natura:nether_planks:1>],
+	[<natura:nether_planks:1>, stick, <natura:nether_planks:1>]
+]);
+recipes.addShaped (<natura:bloodwood_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:nether_planks:1>, stick],
+	[stick, <natura:nether_planks:1>, stick]
+]);
+recipes.addShaped(<natura:fusewood_fence> * 3, [
+	[null, null, null],
+	[<natura:nether_planks:3>, stick, <natura:nether_planks:3>],
+	[<natura:nether_planks:3>, stick, <natura:nether_planks:3>]
+]);
+recipes.addShaped(<natura:fusewood_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:nether_planks:3>, stick],
+	[stick, <natura:nether_planks:3>, stick]
+]);
+recipes.addShaped(<natura:darkwood_fence> *3, [
+	[null, null, null],
+	[<natura:nether_planks:2>, stick, <natura:nether_planks:2>],
+	[<natura:nether_planks:2>, stick, <natura:nether_planks:2>]
+]);
+recipes.addShaped(<natura:darkwood_fence_gate>, [
+	[null, null, null],
+	[stick, <natura:nether_planks:2>, stick],
+	[stick, <natura:nether_planks:2>, stick]
+]);
