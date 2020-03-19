@@ -204,7 +204,7 @@ recipes.addShaped(<ic2:scaffold>, [
 ]);
 recipes.addShaped(<ic2:te:3>, [
 	[REBattA], 
-	[<ic2:te:12>], 
+	[<ic2:resource:12>], 
 	[<ic2:te:46>]
 ]);
 recipes.addShaped(<ic2:te:72>, [
@@ -343,9 +343,9 @@ recipes.addShaped(<extraplanets:zinc_battery:100>, [
 	[<extraplanets:tier8_items:4>, Rchip, <extraplanets:tier8_items:4>]
 ]);
 recipes.addShaped(<moreplanets:space_warper_core>, [
-	[<ore:compressedDesh>, <moreplanets:diona_item:1>, <ore:compressedDesh>], 
+	[<ore:compressedDesh>, <moreplanets:compressed_diremsium>, <ore:compressedDesh>], 
 	[Dchip, <cyclicmagic:ender_eye_orb>, Dchip], 
-	[<moreplanets:diona_item:1>, <galacticraftplanets:item_basic_mars:5>, <moreplanets:diona_item:1>]
+	[<moreplanets:compressed_diremsium>, <galacticraftplanets:item_basic_mars:5>, <moreplanets:compressed_diremsium>]
 ]);
 	/* Applied Energistics */
 recipes.addShaped(<appliedenergistics2:charger>, [
@@ -461,20 +461,21 @@ recipes.addShaped(<xnet:antenna_dish>, [
 	[<ore:plateAluminum>, <minecraft:ender_pearl>, <ore:plateAluminum>], 
 	[null, <ore:stickIron>, null]
 ]);
-recipes.addShaped(<thermaldynamics:duct_0> * 6, [
+/* Thermal Dynamics */
+recipes.addShaped(<thermaldynamics:duct_0> * 8, [
 	[<minecraft:redstone>, <buildcraftsilicon:redstone_chipset>, <minecraft:redstone>], 
 	[<ore:plateLead>, <buildcrafttransport:pipe_stone_power>, <ore:plateLead>], 
 	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]
 ]);
-recipes.addShaped(<thermaldynamics:duct_0:1> * 6, [
+recipes.addShaped(<thermaldynamics:duct_0:1> * 8, [
 	[<thermaldynamics:duct_0>, <thermaldynamics:duct_0>, <thermaldynamics:duct_0>], 
 	[<minecraft:redstone>, <buildcraftsilicon:redstone_chipset:1>, <minecraft:redstone>], 
 	[<ore:plateInvar>, null, null]
 ]);
-recipes.addShaped(<thermaldynamics:duct_0:6> * 6, [
+recipes.addShaped(<thermaldynamics:duct_0:6> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset:2>, null], 
 	[<thermalfoundation:material:353>, <buildcrafttransport:pipe_gold_power>, <thermalfoundation:material:353>], 
-	[null, <thermalfoundation:glass:1>, null]
+	[null, <ore:blockGlassHardened>, null]
 ]);
 recipes.addShaped(<thermaldynamics:duct_0:7> * 3, [
 	[<thermaldynamics:duct_0:6>, <thermaldynamics:duct_0:6>, <thermaldynamics:duct_0:6>], 
@@ -517,27 +518,27 @@ recipes.addShapeless(<thermaldynamics:duct_16:4> * 3, [
 recipes.addShapeless(<thermaldynamics:duct_16:5> * 3, [
 	<thermaldynamics:duct_16:3>, <thermaldynamics:duct_16:3>, <thermaldynamics:duct_16:3>, <ore:plateSignalum>, <ore:plateElectrum>
 ]);
-recipes.addShaped(<thermaldynamics:duct_16> * 6, [
+recipes.addShaped(<thermaldynamics:duct_16> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset:3>, null], 
 	[<ore:plateCopper>, <buildcrafttransport:pipe_stone_fluid>, <ore:plateCopper>]
 ]);
-recipes.addShaped(<thermaldynamics:duct_16:1> * 6, [
+recipes.addShaped(<thermaldynamics:duct_16:1> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset>, null], 
 	[<ore:plateCopper>, <buildcrafttransport:pipe_stone_fluid>, <ore:plateCopper>]
 ]);
-recipes.addShaped(<thermaldynamics:duct_16:3> * 6, [
+recipes.addShaped(<thermaldynamics:duct_16:3> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset>, null], 
 	[<ore:plateInvar>, <buildcrafttransport:pipe_gold_fluid>, <ore:plateInvar>]
 ]);
-recipes.addShaped(<thermaldynamics:duct_16:2> * 6, [
+recipes.addShaped(<thermaldynamics:duct_16:2> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset:3>, null], 
 	[<ore:plateInvar>, <buildcrafttransport:pipe_gold_fluid>, <ore:plateInvar>]
 ]);
-recipes.addShaped(<thermaldynamics:duct_32> * 6, [
+recipes.addShaped(<thermaldynamics:duct_32> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset:3>, null], 
 	[<ore:plateTin>, <buildcrafttransport:pipe_stone_item>, <ore:plateTin>]
 ]);
-recipes.addShaped(<thermaldynamics:duct_32:1> * 6, [
+recipes.addShaped(<thermaldynamics:duct_32:1> * 8, [
 	[null, <buildcraftsilicon:redstone_chipset>, null], 
 	[<ore:plateTin>, <buildcrafttransport:pipe_stone_item>, <ore:plateTin>]
 ]);

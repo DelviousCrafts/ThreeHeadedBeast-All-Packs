@@ -722,11 +722,11 @@ mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier8_items:3>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier9_items:4>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier10_items:4>);
 mods.GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:6>);
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:diona_item:2>); /* Illenium */
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:diona_item:3>); /* Setrorium */
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:chalos_item:2>); /* Diremsium */
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:chalos_item:3>); /* Zyptorium */
-mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:fronos_item:1>); /* Extrailonite */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_illenium>); /* Illenium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_setrorium>); /* Setrorium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_diremsium>); /* Diremsium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_zyptorium>); /* Zyptorium */
+mods.GalacticraftTweaker.removeCompressorRecipe(<moreplanets:compressed_extrailonite>); /* Extrailonite */
 
 /* Fix Galacticraft Compressor recipes expense and clean up unification */
 	/* Carbon */
@@ -815,24 +815,24 @@ mods.GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_
 	<galacticraftplanets:item_basic_asteroids>
 );
 	/* Setrorium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:diona_item:3>,
-	<moreplanets:diona_item:1>, <moreplanets:diona_item:1>, <moreplanets:diona_item:1>, <moreplanets:diona_item:1>, <moreplanets:diona_item:1>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_setrorium>,
+	<moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>, <moreplanets:setrorium_shard>
 );
 	/* Illenium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:diona_item:2>,
-	<moreplanets:diona_item>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_illenium>,
+	<moreplanets:illenium_ingot>
 );
 	/* Diremsium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:chalos_item:2>,
-	<moreplanets:chalos_item>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_diremsium>,
+	<moreplanets:diremsium_ingot>
 );
 	/* Zyptorium */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:chalos_item:3>,
-	<moreplanets:chalos_item:1>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_zyptorium>,
+	<moreplanets:zyptorium_ingot>
 );
 	/* Extrailonite */
-mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:fronos_item:1>,
-	<moreplanets:fronos_item>
+mods.GalacticraftTweaker.addCompressorShapelessRecipe(<moreplanets:compressed_extrailonite>,
+	<moreplanets:extrailonite_ingot>
 );
 	/* Gold */
 mods.GalacticraftTweaker.addCompressorShapelessRecipe(<thermalfoundation:material:33>,

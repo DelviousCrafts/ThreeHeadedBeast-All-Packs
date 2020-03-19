@@ -101,39 +101,39 @@ val RArray = [
 	<extraplanets:iapetus:5>, /* Copper Ore */
 	<extraplanets:wafer>, /* Unused Diamond Wafer */
 	<extraplanets:wafer:1>, /* Unused Carbon Wafer */
-	<moreplanets:diona_block:6>, /* Tin Ore*/
-	<moreplanets:diona_block:7>, /* Copper Ore */
-	<moreplanets:diona_block:8>, /* Aluminum Ore */
-	<moreplanets:koentus_block:6>, /* Tin Ore */
-	<moreplanets:koentus_block:7>, /* Copper Ore */
-	<moreplanets:koentus_block:8>, /* Aluminum Ore */
-	<moreplanets:koentus_block:9>, /* Iron Ore */
-	<moreplanets:chalos_block:5>, /* Iron Ore */
-	<moreplanets:chalos_block:6>, /* Tin Ore */
-	<moreplanets:chalos_block:7>, /* Copper Ore */
-	<moreplanets:chalos_block:8>, /* Aluminum Ore */
-	<moreplanets:nibiru_ore>, /* Coal Ore */
-	<moreplanets:nibiru_ore:1>, /* Iron Ore */
-	<moreplanets:nibiru_ore:2>, /* Gold Ore */
-	<moreplanets:nibiru_ore:3>, /* Diamond Ore */
-	<moreplanets:nibiru_ore:4>, /* Redstone Ore */
-	<moreplanets:nibiru_ore:5>, /* Lapis Ore */
-	<moreplanets:nibiru_ore:6>, /* Emerald Ore */
-	<moreplanets:nibiru_ore:7>, /* Aluminum Ore */
-	<moreplanets:nibiru_ore:8>, /* Copper Ore */
-	<moreplanets:nibiru_ore:9>, /* Tin Ore */
-	<moreplanets:fronos_ore>, /* Iron Ore */
-	<moreplanets:fronos_ore:1>, /* Gold Ore */
-	<moreplanets:fronos_ore:2>, /* Tin Ore */
-	<moreplanets:fronos_ore:3>, /* Copper Ore */
-	<moreplanets:fronos_ore:4>, /* Aluminum Ore */
-	<moreplanets:fronos_ore:5>, /* Lead Ore */
-	<moreplanets:fronos_ore:6>, /* Coal Ore */
-	<moreplanets:fronos_ore:7>, /* Lapis Ore */
-	<moreplanets:fronos_ore:8>, /* Diamond Ore */
-	<moreplanets:fronos_ore:9>, /* Emerald Ore */
-	<moreplanets:fronos_ore:10>, /* Redstone Ore */
-	<moreplanets:fronos_ore:12>, /* Quartz Ore */
+	<moreplanets:diona_tin_ore>, /* Tin Ore*/
+	<moreplanets:diona_copper_ore>, /* Copper Ore */
+	<moreplanets:diona_aluminum_ore>, /* Aluminum Ore */
+	<moreplanets:koentus_tin_ore>, /* Tin Ore */
+	<moreplanets:koentus_copper_ore>, /* Copper Ore */
+	<moreplanets:koentus_aluminum_ore>, /* Aluminum Ore */
+	<moreplanets:koentus_iron_ore>, /* Iron Ore */
+	<moreplanets:chalos_iron_ore>, /* Iron Ore */
+	<moreplanets:chalos_tin_ore>, /* Tin Ore */
+	<moreplanets:chalos_copper_ore>, /* Copper Ore */
+	<moreplanets:chalos_aluminum_ore>, /* Aluminum Ore */
+	<moreplanets:infected_coal_ore>, /* Coal Ore */
+	<moreplanets:infected_iron_ore>, /* Iron Ore */
+	<moreplanets:infected_gold_ore>, /* Gold Ore */
+	<moreplanets:infected_diamond_ore>, /* Diamond Ore */
+	<moreplanets:infected_redstone_ore>, /* Redstone Ore */
+	<moreplanets:infected_lapis_ore>, /* Lapis Ore */
+	<moreplanets:infected_emerald_ore> /* Emerald Ore */
+	<moreplanets:infected_aluminum_ore>, /* Aluminum Ore */
+	<moreplanets:infected_copper_ore>, /* Copper Ore */
+	<moreplanets:infected_tin_ore>, /* Tin Ore */
+	<moreplanets:fronos_iron_ore>, /* Iron Ore */
+	<moreplanets:fronos_gold_ore>, /* Gold Ore */
+	<moreplanets:fronos_tin_ore>, /* Tin Ore */
+	<moreplanets:fronos_copper_ore>, /* Copper Ore */
+	<moreplanets:fronos_aluminum_ore>, /* Aluminum Ore */
+	<moreplanets:fronos_lead_ore>, /* Lead Ore */
+	<moreplanets:fronos_coal_ore>, /* Coal Ore */
+	<moreplanets:fronos_lapis_ore>, /* Lapis Ore */
+	<moreplanets:fronos_diamond_ore>, /* Diamond Ore */
+	<moreplanets:fronos_emerald_ore>, /* Emerald Ore */
+	<moreplanets:fronos_redstone_ore>, /* Redstone Ore */
+	<moreplanets:fronos_quartz_ore>, /* Quartz Ore */
 	<actuallyadditions:block_misc:5>,
 	<chisel:block_charcoal2>,
 	<draconicevolution:draconium_block:1>,
@@ -157,6 +157,7 @@ val RArray = [
 	<theoneprobe:creativeprobe>,
 	<actuallyadditions:item_food:17>,
 	<avaritia:skullfire_sword>,
+	<extracells:ecbaseblock>,
 	<ic2:lappack>
 ] as IItemStack[];
 var HArray = [

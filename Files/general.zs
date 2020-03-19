@@ -364,10 +364,13 @@ recipes.addShaped(<snad:snad:1>, [
 recipes.remove(<iceandfire:lectern>);
 recipes.addShaped(<iceandfire:lectern>, [[<ore:stickWood>], [<ore:plankWood>], [<ore:plankWood>]]);
 
-/* Makes recipe to clear nametags */
+/* Fix Nametag recipes */
+recipes.addShapeless(<minecraft:name_tag>,
+	[<minecraft:string>, <minecraft:paper>]
+);
 recipes.addShapeless(<minecraft:name_tag>, 
 	[<minecraft:name_tag:*>]
-);	
+);
 
 /* Add seeds to industrial squeezer */
 Squeezer.addRecipe(<actuallyadditions:item_misc:1>, 
@@ -729,3 +732,10 @@ recipes.addShaped(<missing_pieces:willow_chair:8> *2, [
 	[null, <natura:overworld_planks:4>, <natura:overworld_planks:4>],
 	[null, tall, tall]
 ]);
+/*Fix Little Tiles recipes*/
+recipes.addShapeless(<littletiles:ltstorageblocktile> *2,
+	[<minecraft:chest>, <minecraft:chest>]
+);
+recipes.addShapeless(<rftools:smartwrench>,
+	[<littletiles:wrench>, <buildcraftsilicon:redstone_chipset>]
+);
