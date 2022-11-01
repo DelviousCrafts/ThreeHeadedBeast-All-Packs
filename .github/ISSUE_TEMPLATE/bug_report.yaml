@@ -1,6 +1,6 @@
-name: "Bug Report"
+name: Bug Report
 description: If you experienced a bug while playing with Three Headed Beast packs.
-labels: bug
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
