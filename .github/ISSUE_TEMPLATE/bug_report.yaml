@@ -1,12 +1,12 @@
 name: Bug Report
-description: If you experienced a bug while playing with Three Headed Beast packs.
-title:
-labels: bug
+description: Tell us about a bug you experienced while playing a Three Headed Beast pack.
+title: "[Bug]: "
+labels: ["bug"]
 assignees:
 body:
   - type: markdown
     attributes:
-      value: Before reporting, please use the search function to make sure an issue hasn't been reported already.
+      value: "Before reporting, please use the search function to make sure an issue hasn't been reported already."
 
   - type: dropdown
     attributes:
