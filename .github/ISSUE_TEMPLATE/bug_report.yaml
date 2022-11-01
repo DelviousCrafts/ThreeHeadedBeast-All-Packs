@@ -22,8 +22,8 @@ body:
     attributes:
       label: Three Headed Beast Version
       description: |
-	      The version of Three Headed Beast you are using.
-	      DO NOT USE LATEST
+        The version of Three Headed Beast you are using.
+	DO NOT USE LATEST
       placeholder: "MAJOR.MINOR.PATCH"
     validations:
       required: true
