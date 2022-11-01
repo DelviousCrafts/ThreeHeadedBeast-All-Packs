@@ -23,9 +23,7 @@ body:
   - type: input
     attributes:
       label: Three Headed Beast Version
-      description: |
-	  The version of Three Headed Beast you are using.
-	  DO NOT USE "LATEST"
+      description: The version of Three Headed Beast you are using. DO NOT USE "LATEST"
       placeholder: "MAJOR.MINOR.PATCH"
     validations:
       required: true
@@ -55,7 +53,7 @@ body:
       required: true
 
   - type: textarea
-	id: reproduce
+    id: reproduce
     attributes:
       label: Steps to reproduce
       description: |
@@ -77,13 +75,9 @@ body:
       required: false
 
   - type: input
-	id: logs
     attributes:
       label: Logs
-      description: |
-        Add LINKS to your pastebin or gist dump of any logs you can get your hands on.
-		This could be a crash log, latest.log, and/or a server latest/debug.log.
-		These can be found in the crash-reports or logs folder of the pack respectively.
+      description: Add LINKS to your pastebin or gist dump of any logs you can get your hands on. This could be a crash log, latest.log, and/or a server latest/debug.log.These can be found in the crash-reports or logs folder of the pack respectively. DO NOT PASTE LOGS HERE
       placeholder: <gist or pastebin link>
     validations:
       required: true
