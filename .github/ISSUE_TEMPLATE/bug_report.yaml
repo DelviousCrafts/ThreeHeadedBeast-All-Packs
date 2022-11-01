@@ -1,5 +1,5 @@
-name: Bug Report
-description: Tell us about a bug you experienced while playing a Three Headed Beast pack.
+name: "Bug Report"
+description: "Tell us about a bug you experienced while playing a Three Headed Beast pack."
 title: "[Bug]: "
 labels: ["bug"]
 assignees:
